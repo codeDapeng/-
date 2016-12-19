@@ -1,0 +1,21 @@
+/*header*/
+@import "modules/index_header";
+/*list*/
+@import "modules/index_list";
+/*content*/
+@import "modules/index_content";
+
+/*media*/
+@media screen and (min-width:1500px) {
+    $distance:300px;
+    #header {
+       padding: 0 $distance;
+    }
+    #listWrap {
+        margin-left: $distance;
+    }
+    #container {
+        width: 986px;
+    }
+
+}

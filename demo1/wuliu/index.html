@@ -1,0 +1,249 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<!-- <meta name="apple-mobile-web-app-capable" content="yes"/> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <script src="js/jquery-1.7.2.min.js"></script>
+
+
+    <link rel="stylesheet" href="css/public.css">
+	<title>佰惠物流后台</title>
+	<style type="text/css">
+		.header{
+			padding-left:300px;
+			padding-right:300px;
+			background: #2C3544;
+			height:100px;
+			background: url(img/son.jpg) no-repeat;
+			background-size: 100% 100%;
+			transition:all 0.5s ease-in-out 0s;
+			-webkit-transition:all 0.5s ease-in-out 0s;
+			-moz-transition:all 0.5s ease-in-out 0s;
+			border-bottom:1px solid #aeb2bb;
+		}
+		.header .left{
+			float:left;
+		}
+		.header .left h2{
+			color:#ddd;
+			line-height: 50px;
+			text-align: left;
+			font-weight: bold;
+			margin-top:23px;
+		}
+
+		.header .left p{
+			color:#fff;
+			font-size: 14px;
+			line-height: 30px;
+			text-align: left;
+			margin-top:5px;
+			font-weight: bold;
+		}
+		.header .right{
+			float:right;
+		}
+		.header .right .user{
+			color:#ffae00;
+			font-size: 14px;
+			line-height: 28px;
+			text-align: center;
+			margin-top:15px;
+		}
+
+		.header .right .out{
+			color:#fff;
+			width:108px;
+			height:28px;
+			border:1px solid #ccc;
+			border-radius: 8px;
+			font-size: 14px;
+			line-height: 28px;
+			margin-top:6px;
+			text-align: center;
+			cursor: pointer;
+			transition:all 0.3s ease-in-out 0s;
+			-webkit-transition:all 0.3s ease-in-out 0s;
+			-moz-transition:all 0.3s ease-in-out 0s;
+		}
+		.header .right .out:hover{
+			color:#087AD3;
+
+		}
+		.box{
+			clear:both;
+			width:1000px;
+			height:auto;
+			margin:0 auto;
+			overflow: hidden;
+			/*padding-left:300px;
+			padding-right:300px;*/
+
+		}
+
+		.box .nav{
+			clear:both;
+			width:160px;
+			/*height:690px;*/
+			float:left;
+			background: #F4F4F4;
+		}
+		.box .nav ul{
+			width:100%;
+			margin-top:15px;
+		}
+
+
+		.box .nav ul >li{
+			width:128px;
+			line-height:30px;
+			margin:0 auto;
+			text-align: center;
+			line-height: 30px;
+			font-size:16px;
+			font-weight: 500;
+			color:#333;
+			cursor: pointer;
+			margin-bottom:10px;
+		}
+		.box .nav ul >li .img{
+			width:auto;
+			height:15px;
+			vertical-align: middle;
+			margin-left: 20px;
+			vertical-align: middle;
+			display: inline-block;
+		}
+		.box .nav ul >li .p{
+			height:30px;
+			line-height: 30px;
+			text-align: center;
+		}
+		.box .nav ul >li .out{
+			/*border:1px solid #aeb2bb;*/
+			background: #E6E6E6;
+		}
+		.box .nav ul >li .in{
+			margin-top:10px;
+		}
+
+		.in-color{
+			color:#5cacec!important;
+		}
+
+		.box .ccon{
+			/*height:690px;*/
+			float:left;
+			margin-left:15px;
+			border:1px solid #eee;
+			overflow: auto;
+		}
+		.box .ccon .first{
+			margin:0 auto;
+			text-align: center;
+			line-height: 25px;
+			font-size: 14px;
+			color:#555;
+			margin-top:20%;
+		}
+
+
+		@media screen and (max-width:1500px){
+			.header{
+				padding-left:20px;
+				padding-right:20px;
+
+			}
+
+			.box{
+			 	width:100%;
+			 }
+		}
+
+
+		@media screen and (min-width:1600px){
+			 .box{
+			 	width:1000px;
+			 }
+		}
+
+
+	</style>
+</head>
+<body>
+
+	<div class="wrap header">
+		<div class="left">
+			<h2><img src="img/title.png" alt="" /></h2>
+			<p>您好！欢迎使用佰惠物流信息系统。</p>
+		</div>
+
+		<div class="right">
+			<p class="user">用户名：<span>admin</span></p>
+			<p class="out">退出</p>
+		</div>
+	</div>
+
+	<div class="box">
+
+		<div class="nav">
+			<ul class="ul-out">
+				<li class="li">
+
+					<p class="p out">物流列表<img src="img/down.png" alt="" class="img img-down"/><img src="img/top.png" alt="" class="img img-top no"/></p>
+					<p class="p in in-color no">添加物流消息</p>
+
+				</li>
+
+				<li class="li">
+					<p class="p out">发货列表<img src="img/down.png" alt="" class="img img-down"/><img src="img/top.png" alt="" class="img img-top no"/></p>
+					<!-- <p class="p in in-color no">添加物流消息</p> 	  -->
+				</li>
+			</ul>
+		</div>
+
+		<div class="ccon">
+			<p class="first">您好！欢迎使用佰惠物流信息系统。</p>
+		</div>
+
+
+	</div>
+	<script type="text/javascript">
+
+	$(window).resize(function(){
+		running();
+	});
+	function running(){
+
+		$(".box .ccon").css({"width":$(".box").width()-160-25+"px","height":$(window).height()-100+"px"});
+		$(".box .nav").css({"height":$(window).height()-100+"px"});
+		// document.title=$(window).width();
+	}
+	running();
+
+	$(".box .nav ul >li").each(function(){
+		var f=0;
+		$(this).find(".out").on("click",function(){
+			if(f==0){
+				$(this).find(".img-top").removeClass("no").siblings(".img-down").addClass("no");
+				$(this).siblings(".in").removeClass("no");
+				f=1;
+			} else{
+				$(this).find(".img-down").removeClass("no").siblings(".img-top").addClass("no");
+				$(this).siblings(".in").addClass("no");
+				f=0;
+			}
+		});
+	})
+
+
+
+
+
+
+
+	</script>
+
+</body>
+</html>

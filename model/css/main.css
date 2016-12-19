@@ -1,0 +1,129 @@
+/*header*/
+#header {
+  background: url(../img/%E5%AD%90_title_bg.jpg);
+  background-size: cover;
+  height: 120px;
+  padding: 0 40px;
+  color: #fff;
+  -webkit-transition: all 0.5s linear;
+          transition: all 0.5s linear;
+}
+#header .left {
+  float: left;
+}
+#header .left .p1 {
+  font-size: 28px;
+  padding-top: 30px;
+}
+#header .left .p2 {
+  font-size: 14px;
+  padding-top: 15px;
+}
+#header .right {
+  float: right;
+  margin-top: 68px;
+}
+#header .right p {
+  float: left;
+  font-size: 14px;
+  line-height: 34px;
+  margin-right: 10px;
+}
+#header .right #exit {
+  width: 108px;
+  height: 34px;
+  line-height: 34px;
+  float: right;
+  border: 1px solid #fff;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-transition: 0.2s linear border;
+          transition: 0.2s linear border;
+}
+#header .right #exit:hover {
+  border: 1px solid #d6d633;
+}
+
+/*list*/
+#listWrap {
+  background: #f4f4f4;
+  width: 194px;
+  margin-left: 40px;
+  overflow: hidden;
+  -webkit-transition: all 0.5s linear;
+          transition: all 0.5s linear;
+  float: left;
+}
+#listWrap #list {
+  margin: 0 12px;
+  padding: 4px 0 0 0;
+  height: 590px;
+}
+#listWrap #list li {
+  line-height: 36px;
+  background: #e7e6e6 url(../img/whiteCir.png) no-repeat 8px 12px;
+  color: #333;
+  font-size: 16px;
+  font-family: "SimSun", Microsoft YaHei;
+  font-weight: bold;
+  margin: 4px 0;
+  text-indent: 32px;
+  cursor: pointer;
+}
+#listWrap #list li:hover {
+  color: #9d9b9b;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+#listWrap #list li .btnUp {
+  float: right;
+  margin: 16px 20px 0 0;
+  -webkit-transition: all 0.3s linear;
+          transition: all 0.3s linear;
+}
+#listWrap #list li ul {
+  display: none;
+}
+#listWrap #list li ul li {
+  color: #0e8ee7;
+  background: #e7e6e6 url(../img/blueCir.png) no-repeat 31px 16px;
+  text-indent: 48px;
+}
+#listWrap #list li ul li:hover {
+  color: skyblue;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+
+.rotate {
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+/*content*/
+#container {
+  float: left;
+  width: 990px;
+}
+#container .hello {
+  color: #848484;
+  text-align: center;
+  margin-top: 150px;
+}
+
+/*media*/
+@media screen and (min-width: 1500px) {
+  #header {
+    padding: 0 300px;
+  }
+
+  #listWrap {
+    margin-left: 300px;
+  }
+
+  #container {
+    width: 986px;
+  }
+}

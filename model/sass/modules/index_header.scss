@@ -1,0 +1,44 @@
+#header {
+    background: url(../img/%E5%AD%90_title_bg.jpg);
+    background-size: cover;
+    height: 120px;
+    padding: 0 40px;
+    color: #fff;
+    transition:all 0.5s linear;
+    .left {
+        float: left;
+        .p1 {
+            font-size: 28px;
+            padding-top: 30px;
+        }
+        .p2 {
+            font-size: 14px;
+            padding-top: 15px;
+        }
+    }
+    .right {
+        float: right;
+        margin-top: 68px;
+        p {
+            float: left;
+            font-size: 14px;
+            line-height: 34px;
+            margin-right: 10px;
+        }
+        #exit {
+            width: 108px;
+            height: 34px;
+            line-height: 34px;
+            float: right;
+            border: 1px solid #fff;
+            text-align: center;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.2s linear border;
+            &:hover {
+                border: 1px solid #d6d633;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>佰慧-物流信息</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/list3.css">
+    <script src="js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+    <div id="bigWrap">
+        <h3 class="title">当前位置：<span>物流列表</span></h3>
+        <label class="searchWrap">
+            <div>
+                <input type="text" placeholder="收货人姓名">
+                <span>搜索</span>
+            </div>
+        </label>
+        <ul class="listTitle">
+            <li>兑换礼品</li>
+            <li>收件人</li>
+            <li>手机号</li>
+            <li>收货地址</li>
+            <li>物流单号</li>
+            <li style="border:none;">状态</li>
+        </ul>
+        <div id="content">
+            <ul class="listItem">
+                <li>礼品名称</li>
+                <li>xxx</li>
+                <li>xxxxxxxxxxx</li>
+                <li>
+                    <p>收货地址收货地货地址收货地址收货地址收货地址收货地址收</p>
+                </li>
+                <li>物流单号</li>
+                <li style="border:none;">详情</li>
+            </ul>
+            <ul class="listItem">
+                <li>礼品名称</li>
+                <li>xxx</li>
+                <li>xxxxxxxxxxx</li>
+                <li>
+                    <p>收货地址收货地货地址收货地址收货地址收货地址收货地址收</p>
+                </li>
+
+                <li>物流单号</li>
+                <li style="border:none;">详情</li>
+            </ul>
+        </div>
+        <div id="footer">
+
+            <div class="r">
+                <span>首页</span>
+                <span><</span>
+                <ul>
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                </ul>
+                <span>></span>
+                <span>尾页</span>
+            </div>
+            <div class="l">
+                <p>共<span>100</span>页，当前第<span>1</span>页</p>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script>
+        $('#footer li').on('click',function(){
+            $('#footer li').removeClass('choose');
+            $(this).addClass('choose');
+        })
+    </script>
+</body>
+
+</html>

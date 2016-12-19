@@ -1,0 +1,203 @@
+#bigWrap{
+    width: 98%;
+    padding: 1%;
+}
+.title{
+    font-size: 16px;
+    font-weight: bold;
+    color: #464646;
+    line-height: 40px;
+}
+.title span{
+    font-weight:100;
+}
+.searchWrap{
+    display: inline-block;
+    width: 100%;
+    height: 72px;
+    border: 1px solid #d6d6d6;
+    border-top: 5px solid #373f52;
+    border-bottom: none;
+}
+.searchWrap div{
+    width: 240px;
+    border: 1px solid #999;
+    border-radius: 6px;
+    line-height: 32px;
+    margin: 22px 0 18px 33px;
+    font-size: 14px;
+}
+.searchWrap div input{
+    margin-left: 10px;
+    width: 70%;
+    border: none;
+    height: 32px;
+    font-size: 14px;
+    outline: none;
+}
+.searchWrap div span{
+    display: inline-block;
+    width: 46px;
+    background: #0099df;
+    border-radius:5px;
+    text-align: center;
+    float: right;
+    color: #fff;
+    cursor: pointer;
+}
+
+/*listTitle*/
+.listTitle{
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    overflow: hidden;
+}
+.listTitle li{
+    float: left;
+    border-right: 1px solid #d8d8d8;
+    text-align: center;
+    line-height: 66px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 13%;
+}
+.listTitle li:nth-child(4){
+    width: 21%;
+}
+/*listItem*/
+#content .listItem{
+    width: 100%;
+    border: 1px solid #d8d8d8;
+    overflow: hidden;
+
+}
+#content .listItem li{
+    float: left;
+    border-right: 1px solid #d8d8d8;
+    text-align: center;
+    font-size: 14px;
+    width: 13%;
+    min-height:70px;
+    height:auto;
+    line-height: 70px;
+    color: #464646;
+}
+#content .listItem li:nth-child(4){
+    width: 21%;
+}
+#content .listItem li:nth-child(4) p{
+    line-height: 20px;
+    padding: 10px;
+}
+/*footer*/
+.choose{
+    background: #303f52;
+    color: #fff;
+}
+#footer{
+    float: right;
+    width: 100%;
+    font-size: 14px;
+}
+#footer .l{
+    float: right;
+    margin-top: 26px;
+}
+#footer .r{
+    float: right;
+    width: 350px;
+}
+#footer .r span{
+    border: 1px solid #303f52;
+    margin: 20px 10px 10px 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+#footer .r span:nth-child(1){
+    float: left;
+}
+#footer .r span:nth-child(2){
+    float: left;
+}
+#footer .r span:nth-child(4){
+    float: left;
+}
+#footer .r span:nth-child(5){
+    float: left;
+}
+
+#footer .r ul li{
+    float: left;
+    border: 1px solid #303f52;
+    margin: 20px 6px 0 6px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+#listWrap {
+    background: #f4f4f4;
+    width: 194px;
+    margin-left: 40px;
+    overflow: hidden;
+    transition: all 0.5s linear;
+    float: left;
+    #list {
+        margin: 0 12px;
+        padding: 4px 0 0 0;
+        height: 590px;
+        li {
+            line-height: 36px;
+            background: #e7e6e6 url(../img/whiteCir.png) no-repeat 8px 12px;
+            color: #333;
+            font-size: 16px;
+            font-family: "SimSun", Microsoft YaHei;
+            font-weight: bold;
+            margin: 4px 0;
+            text-indent: 32px;
+            cursor: pointer;
+            &:hover {
+                color: #9d9b9b;
+                transition: all 0.3s ease;
+            }
+            .btnUp {
+                float: right;
+                margin: 16px 20px 0 0;
+                transition: all 0.3s linear;
+            }
+            ul {
+                display: none;
+                li {
+                    color: #0e8ee7;
+                    background: #e7e6e6 url(../img/blueCir.png) no-repeat 31px 16px;
+                    text-indent: 48px;
+                    &:hover {
+                        color: skyblue;
+                        transition: all 0.3s ease;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.rotate {
+    transform: rotate(90deg);
+}
